@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right, #f9d423 0%, #ff4e50 100%);
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    width: 100%;
+}
+
+
+.form {
+    background-color: white;
+    width: 100%;
+    margin: auto;
+    max-width: 25em;
+    border-radius: 1em;
+    padding: 3.5em 1.5em;
+}
+
+.form__container {
+    width: 100%;
+    display: grid;
+    gap: 1em;
+    grid-auto-columns: 100%;
+}
+
+.form__title {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 0.4em;
+}
+
+.form__input {
+    font-family: inherit;
+    font-size: 1em;
+    padding: 0.8em 1em;
+    outline: none;
+    border: none;
+    border: 1px solid #bbb0b0;
+    border-radius: 0.2em;
+}
+
+.form__input--message {
+    resize: none;
+    padding: 1.8em 1em;
+}
+
+.form__cta {
+    font-family: inherit;
+    font-size: 1em;
+    background-color: blue;
+    color: white;
+    border: none;
+    font-weight: 300;
+    padding: .7em 0;
+    border-radius: .2em;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+@media (max-width:450px) {
+    .form {
+        padding: 3.5em 1em;
+    }
+}
+

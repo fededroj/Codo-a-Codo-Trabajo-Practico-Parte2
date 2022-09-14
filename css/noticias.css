@@ -1,0 +1,23 @@
+#noticias h3, h4 {
+    text-align: center;
+}
+
+#noticias .contenedor {
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+#noticias article {
+    margin: 15px;
+}
+
+#noticias img {
+    width: 400px;
+    height: 300px;
+    margin-bottom: 30px;
+    object-fit: cover;
+}

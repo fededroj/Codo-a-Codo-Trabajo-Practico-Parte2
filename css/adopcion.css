@@ -1,0 +1,44 @@
+#mascotas {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+#mascotas .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:right;
+}
+
+.adopción {
+    margin: 20px;
+}
+
+.adopción img {
+    width: 380px;
+    height: 380px;
+    border-radius: 50%;
+    border: 7px solid #fff;
+}
+
+#mascotas {
+    margin-top: 80px;
+}
+
+
+#mascotas h3,h4, p {
+    font-size: 20px;
+}
+
+@media (min-width: 480px) {
+    .adopción {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .adopción {
+        width: auto;
+    }
+}
